@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde"
+    tools:context=".MainActivity">
+
+   <ListView
+       android:id="@+id/listProducto"
+       android:layout_width="421dp"
+       android:layout_height="756dp">
+   </ListView>
+</LinearLayout>

@@ -8,41 +8,58 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="143dp"
-        android:layout_height="84dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="36dp"
-        android:text="VER CLIENTE"
-        android:onClick="vercliente"
-        android:backgroundTint="@color/Naran"
-        app:layout_constraintBottom_toTopOf="@+id/button9"
-        app:layout_constraintEnd_toStartOf="@+id/button8" />
+        android:layout_width="157dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/Azul"
+        android:onClick="verDestino"
+        android:text="VER DESTINO"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="233dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="142dp"
-        android:layout_height="88dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="32dp"
-        android:text="VER PRODUCTO"
+        android:layout_width="163dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="224dp"
+        android:backgroundTint="@color/Azul"
         android:onClick="verproducto"
-        android:backgroundTint="@color/Naran"
-        app:layout_constraintBottom_toTopOf="@+id/button9"
+        android:text="VER PRODUCTO"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="142dp"
-        android:layout_height="67dp"
-        android:layout_marginBottom="264dp"
-        android:text="REGISTRAR"
-        android:backgroundTint="@color/Naran"
+        android:layout_width="220dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="380dp"
+        android:backgroundTint="@color/Azul"
+        android:text="REGISTRAR ESTADO DE ENVIO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="1174dp"
+        android:layout_height="1597dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondoboton2"
+        tools:layout_editor_absoluteY="-481dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondoboton"
+        tools:layout_editor_absoluteY="191dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

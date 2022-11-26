@@ -17,21 +17,17 @@
             android:name=".Registrar"
             android:exported="false" />
         <activity
-            android:name=".Lista_producto"
-            android:exported="false" />
-        <activity
-            android:name=".Main_listaproducto"
-            android:exported="false" />
-        <activity
-            android:name=".ListaProducto"
-            android:exported="false" />
-        <activity
             android:name=".CuadInfo"
             android:exported="false" />
         <activity
-            android:name=".ui.login.CuadroInfo"
-            android:exported="false"
-            android:label="@string/title_activity_cuadro_info" />
+            android:name=".MainActivity_listaproducto"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_producto"
+            android:exported="false" />
+        <activity
+            android:name=".ProductoAdapter"
+            android:exported="false" />
         <activity
             android:name=".ActivitySplash"
             android:exported="true">
